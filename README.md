@@ -1,0 +1,3 @@
+Frequency analysis is a codebreaking technique involving recording the frequency of certain letters in an encrypted message. This enables guessing of certain letters in an encoded string, based on the principal that some characters in an encoded language are much more frequent than others, for example. The frequency of E is (usually) much higher than the frequency of Z, for example. This CLI(Command-Line Interface) program accepts an encoded string and outputs a graph(courtesy of matplotlib) displaying the frequency of characters in the string.
+
+NOTE: freq_analysis will only parse alphanumeric(a-z, A-Z, 0-9) characters. All other characters will be thrown out with a console message informing the user of the character thrown out.
